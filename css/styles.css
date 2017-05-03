@@ -1,0 +1,79 @@
+.panel {
+	width: 600px;
+	margin:100px auto 30px auto;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 5px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+body {
+	background-color: brown;
+}
+#quote {
+	width: 80%;
+	margin: 40px auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: brown;
+}
+
+
+
+#author {
+	width: 80%;
+	margin: 20px auto;
+	text-align: right;
+	font-weight: 100;
+	font-size: 20px;
+	color: brown;
+}
+
+
+.btn-box {
+	width: 80%;
+	margin: 30px auto 40px auto;
+}
+
+.btn-box a {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	color: white;
+	border-radius:8px ;
+	background-color: brown;
+	margin-right: 2px;
+	cursor: pointer;
+}
+.btn-box a i {
+	position: relative;
+	top: 8px;
+	left: 11px;
+}
+
+.btn-box button {
+	display: block;
+	float: right;
+	width: 120px;
+	height: 45px;
+	font-size: 16px;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	background-color: brown;
+	outline: none;
+	cursor: pointer;
+}
+
+
+.dir {
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	
+}
